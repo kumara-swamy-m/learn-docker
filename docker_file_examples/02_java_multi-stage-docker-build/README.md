@@ -86,8 +86,8 @@ Enter Expression: exit
 
 | Build Type          | Approximate Size |
 | ------------------- | ---------------: |
-| Without Multi-Stage |       650–800 MB |
-| With Multi-Stage    |       250–350 MB |
+| Without Multi-Stage |       450–600 MB |
+| With Multi-Stage    |       100–200 MB |
 
 ---
 
