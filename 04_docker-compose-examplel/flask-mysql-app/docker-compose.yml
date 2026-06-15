@@ -1,0 +1,18 @@
+---
+
+services:
+
+  db:
+
+    image: mysql:8
+    container_name: mysql-db
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+
+  app:
+    build: .
+    container_name: flask-app
+    ports:
+      - "5000:5000"
+    depends_on:
+      - db
